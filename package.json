@@ -1,0 +1,23 @@
+{
+  "name": "pw-apitest-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellostephstone/pw-apitest-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hellostephstone/pw-apitest-app/issues"
+  },
+  "homepage": "https://github.com/hellostephstone/pw-apitest-app#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.5.2"
+  }
+}
