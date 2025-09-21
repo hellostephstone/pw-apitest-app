@@ -1,6 +1,5 @@
-import { test, expect } from '@playwright/test'
+import { test, expect, request } from '@playwright/test'
 import tags from '../test-data/tags.json'
-import { request } from 'http'
 
 test.beforeEach(async ({ page }) => {
 	await page.route('*/**/api/tags', async (route) => {
